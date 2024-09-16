@@ -5,3 +5,12 @@
     font-family: "poppins" cursive;
 }
 
+::root{
+    --background-color: #f6f6f6;
+    --foreground-color: #003cff;
+    --primary-text-colour: #0a0a0a;
+    --secondary-text-colour: #ffffff;
+    --toggle-bg: #f0eb9d;
+    --toggle-fg: #ffd009;
+}
+
