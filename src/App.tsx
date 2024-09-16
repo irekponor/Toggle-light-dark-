@@ -1,6 +1,6 @@
 import "./App.css";
 
-export const App = () => {
+const App = () => {
   return <div>App</div>;
 };
 
