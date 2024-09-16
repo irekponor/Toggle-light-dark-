@@ -7,3 +7,15 @@
     align-items: center;
     background-color: var(--background-color);
 }
+
+.title{
+    color: var(--primary-text-colour);
+    margin-bottom: 50px;
+}
+
+.box{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--foreground-color);
+    color: var(--secondary-text-colour);
+}
