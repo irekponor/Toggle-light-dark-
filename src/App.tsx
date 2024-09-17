@@ -3,8 +3,8 @@ import Content from "./Content";
 import "./index.css";
 import Navbar from "./Navbar";
 
-const [darkMode, setDarkMode] useState\
 const App = () => {
+  const [darkMode, setDarkMode] = useState(true);
   return (
     <div className="App">
       <Navbar />
