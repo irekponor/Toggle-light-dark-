@@ -12,3 +12,10 @@
     color: #0a0a0a;
     margin-bottom: 50px;
 }
+
+.box{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #003cff;
+    color: #ffffff;
+}
