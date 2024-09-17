@@ -5,6 +5,9 @@ import Navbar from "./Navbar";
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(true);
+  function toggledarkMode() {
+    setDarkMode((prevMode) => !prevMode);
+  }
   return (
     <div className="App">
       <Navbar />
