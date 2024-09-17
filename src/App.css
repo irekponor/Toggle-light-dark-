@@ -5,17 +5,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #f6f6f6;
+    background-color: var(--background-color);
 }
 
 .title{
-    color: #0a0a0a;
+    color: var(--primary-text-color);
     margin-bottom: 50px;
 }
 
 .box{
     padding: 20px;
     border-radius: 10px;
-    background-color: #003cff;
-    color: #ffffff;
+    background-color: var(--foreground-color);
+    color: var(--secondary-text-color);
 }
