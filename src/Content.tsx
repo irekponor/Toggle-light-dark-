@@ -12,6 +12,19 @@ const Content = () => {
           Itza, beaches, Cancun, Playa del Carmen, cuisine tacos, mole,
           guacamole.
         </li>
+        <li>
+          United Arab Emirates is famous for iconic skyscrapers Burj Khalifa,
+          Dubai Mall, luxurious shopping centers.
+        </li>
+        <li>
+          South Korea is famous for K-pop, traditional cuisine kimchi, bibimbap,
+          historical sites.
+        </li>
+        <li>
+          New Zealand is famous for breathtaking landscapes, the Hobbiton Movie
+          Set Lord of the Rings, Maori culture and traditions, and wine regions
+          Marlborough, Central Otago.
+        </li>
       </ul>
     </div>
   );
