@@ -1,17 +1,12 @@
-import { useState } from "react";
-import Content from "./Content";
-import "./index.css";
-import Navbar from "./Navbar";
+import "./App.css";
 
 const App = () => {
-  const [darkMode, setDarkMode] = useState(true);
-  function toggledarkMode() {
-    setDarkMode((prevMode) => !prevMode);
-  }
   return (
     <div className="App">
-      <Navbar />
-      <Content />
+      <h1 className="title">Hii Peeps</h1>
+      <div className="box">
+        <h2>This is a box</h2>
+      </div>
     </div>
   );
 };
