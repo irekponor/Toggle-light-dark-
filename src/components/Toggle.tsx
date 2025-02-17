@@ -1,6 +1,11 @@
 import "./Toggle.css";
 
-const Toggle = ({ handleChange, isChecked }) => {
+type ToggleProps = {
+  handleChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
+  isChecked: boolean;
+};
+
+const Toggle: React.FC<ToggleProps> = ({ handleChange, isChecked }) => {
   return (
     <div>
       <div className="toggle-container">
